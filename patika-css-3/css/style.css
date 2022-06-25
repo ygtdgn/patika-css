@@ -10,9 +10,10 @@
 .headerli a {
   display: block;
   color: black;
-  text-align: center;
+  text-align: right;
   padding: 5px 5px;
   text-decoration: none;
+  display: inline;
 }
 
 .headerli a:hover {
@@ -34,6 +35,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 100px;
 }
 
 .search-area:hover {
@@ -79,6 +81,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   line-height: 34px;
   height: 34px !important;
   display: block;
+
 }
 
 .input {
@@ -102,25 +105,44 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border: none;
+  width: 100%;
 }
 
 .googlesearch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
   margin: 11px 4px;
   padding: 0 16px;
   line-height: 27px;
+  height: 36px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+
 }
 
 .feelinglucky {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
   padding: 0 16px;
   line-height: 27px;
+  height: 36px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+
 }
 
 .footer {
@@ -154,4 +176,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
 }
